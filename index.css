@@ -1,0 +1,78 @@
+body {
+  font-family: 'Amatic SC', cursive;
+}
+
+.navbar {
+  background-color: transparent;
+  border: hidden;
+  font-size: 1.10em;
+}
+
+.navbar.solid {
+  background-color: #ffffff;
+  transition: background-color 1s;
+}
+
+.navbar.solid .navbar-brand {
+  display: inline;
+}
+
+.navbar-brand {
+  display: none;
+}
+
+.navbar-nav > li > a {
+  margin: 10px 10px 5px 5px;
+}
+
+#home {
+  padding: 10% 0 10% 0;
+}
+
+#portfolio h2 {
+  padding: 20px 0;
+}
+
+#portfolio p {
+  font-size: 1.25em;
+}
+
+.portfolio-projects {
+  margin: 10px 0px;
+}
+
+.portfolio-projects--desc {
+  margin: 10px 0px;
+}
+
+.portfolio-projects--image {
+  margin: 10px 0px;
+}
+
+#about h2 {
+  padding: 20px 0;
+}
+
+#about p {
+  text-indent: 10px;
+  font-size: 1.25em;
+}
+
+#about a {
+  color: #000000;
+}
+
+#contact {
+  padding: 40px 0;
+}
+
+#contact a {
+  color: #505050;
+  font-size: 1.25em;
+}
+
+@media (min-width: 768px) {
+  .pull-right-sm {
+    float: right !important;
+  }
+}
