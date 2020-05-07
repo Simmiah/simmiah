@@ -441,7 +441,7 @@ $("document").ready(function() {
 
 function handleTyping() {
   $(".element").typed({
-    strings: ["a Software Engineer", "a surfer", "a french fry addict"],
+    strings: ["a Software Engineer", "a tree hugger", "a potato addict"],
     typeSpeed: 50,
     starDelay: 200,
     backDelay: 600,
